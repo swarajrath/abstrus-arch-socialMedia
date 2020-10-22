@@ -1,0 +1,120 @@
+@import "custom";
+
+textarea {
+  resize: none;
+}
+
+.pt-6 {
+  padding-top: 6rem;
+}
+
+.loading {
+  width: 5rem;
+  height: 5rem;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  margin-top: -2.5rem;
+  margin-left: -2.5rem;
+}
+
+.user {
+  cursor: pointer;
+  display: inline;
+  border: 1px solid transparent;
+  padding: 0.5rem;
+  transition: border 0.5s;
+  border-radius: 5px;
+
+  &:hover {
+    border: 1px solid #333;
+  }
+}
+
+.alerts {
+  position: fixed;
+  right: 3rem;
+  width: 18rem;
+  top: 5rem;
+  z-index: 10;
+  max-height: 25rem;
+  overflow: scroll;
+}
+
+.alert {
+  padding: 0.8rem 1.2rem;
+  z-index: 2000;
+}
+
+.alert-head {
+  font-size: 0.9rem;
+  margin-bottom: 0.3rem;
+}
+
+.alert-text {
+  font-size: 0.8rem;
+  margin-bottom: 0;
+}
+
+.message-board {
+  height: 25rem;
+  overflow: scroll;
+  .message-user {
+    margin: 0;
+  }
+
+  .message {
+    margin: 0;
+  }
+
+  small {
+    margin: 0;
+    display: block;
+  }
+}
+
+.badge.delete {
+  cursor: pointer;
+
+  &:hover {
+    transform: translateY(-2px);
+  }
+}
+
+.chatIcon {
+  transition: transform 0.2s ease-in;
+
+  &:hover {
+    transform: scale(1.2);
+  }
+}
+
+@media (max-width: 768px) {
+  .pt-6 {
+    padding-top: 4rem;
+  }
+
+  .alerts {
+    right: 1rem;
+    width: 10rem;
+    top: 4rem;
+    max-height: 10rem;
+    overflow: scroll;
+  }
+
+  .alert {
+    padding: 0.2rem 0.4rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .modal-dialog {
+    top: 5%;
+    left: 5%;
+    width: 85%;
+    right: 5%;
+  }
+
+  .message-board {
+    height: 20rem;
+  }
+}
