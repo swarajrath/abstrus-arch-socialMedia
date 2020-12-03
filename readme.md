@@ -15,12 +15,6 @@
 - Delete own tweets
 - Chat with followers and following users in real-time
 
----
-
-[Project walk-through](https://www.loom.com/share/19d9f3201d944ea7b7a772ec764024e5)
-
-[Live demo](https://hong-twitter-clone.herokuapp.com)
-(File uploads work in development enviroment but not heroku server. Need to integrate amazon s3.)
 
 ---
 
