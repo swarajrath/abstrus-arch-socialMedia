@@ -1,4 +1,4 @@
-# MERN STACK TWITTER CLONE
+# MERN STACK Social Media
 
 ### Main technolodges: Node/express, MongoDB/mongoose, React, Redux, Bootstrap. Implemented jwt authentication, full CRUD functionalities, real-time chat, image uploads, likes and comments, following-followers relationships, etc. 
 
@@ -14,26 +14,3 @@
 - Comment tweets / delete own comments
 - Delete own tweets
 - Chat with followers and following users in real-time
-
-
----
-
-## SHOWCASE:
-
-### HOME PAGE
-<img src="./public/project-showcase/home-1.png" width="90%">
-
-### PROFILE PAGE
-<img src="./public/project-showcase/profile-1.png" width="90%">
-
-### COMMENT PAGE
-<img src="./public/project-showcase/comment-1.png" width="90%">
-
-### CHAT PAGE
-<img src="./public/project-showcase/chat-1.png" width="90%">
-
-### AUTHENTICATION PAGE
-<img src="./public/project-showcase/auth-1.png" width="90%">
-
-### FOLLOWING / FOLLOWERS PAGE
-<img src="./public/project-showcase/following-1.png" width="90%">
